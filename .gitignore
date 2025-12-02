@@ -7,10 +7,10 @@ env/
 .ipynb_checkpoints/
 
 # data / outputs
-splits/
-candidates/
-*.parquet
-*.csv
+#splits/
+#candidates/
+#*.parquet
+#*.csv
 
 # OS junk
 .DS_Store
