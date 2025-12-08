@@ -55,7 +55,7 @@ amazonbooks/
     dataset/
 notebooks/
     amazonbooks_ncf_baseline.ipynb     # Amazon Books NCF baseline training & evaluation
-    amazonbooks.ipynb                  # Amazon Books preprocessing, candidate pools, ALS baseline, evaluation
+    amazonbooks.ipynb                  # Amazon Books preprocessing, candidate pools, NCF baseline, evaluation
 
 movielens/
     data/
