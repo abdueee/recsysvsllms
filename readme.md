@@ -51,17 +51,25 @@ This repository contains preprocessing and baseline notebooks for both the Movie
 ## File Structure
 
 ```
-movielens_recsys.ipynb             # MovieLens preprocessing, candidate pools, ALS baseline
-amazonbooks.ipynb                  # Amazon Books preprocessing, candidate pools, ALS baseline
-amazonbooks_ncf_baseline.ipynb     # Amazon Books NCF baseline training & evaluation
-movielens_dataset/
-    movies.csv                     # MovieLens movies data
-    ratings.csv                    # MovieLens ratings data
-    ratings_limited.csv            # Ratings capped at 5/user
-    splits/                        # Train/val/test splits & ID maps
-    candidates/                    # Candidate pools for val/test users
+amazonbooks/
+    dataset/
+notebooks/
+    amazonbooks_ncf_baseline.ipynb     # Amazon Books NCF baseline training & evaluation
+    amazonbooks.ipynb                  # Amazon Books preprocessing, candidate pools, ALS baseline, evaluation
+
+movielens/
+    data/
+        ctr_datasets/
+        dataset/
+    logs/
+    models/
+    notebooks/
+        movielens_llm_zeroshot+finetune.ipynb   # LLM experiments for MovieLens
+        movielens_recsys.ipynb                  # MovieLens preprocessing, candidate pools, ALS baseline, evaluation
+
 .gitignore
-readme.md                          # This file
+.gitattributes
+readme.md
 ```
 
 ## Setup
