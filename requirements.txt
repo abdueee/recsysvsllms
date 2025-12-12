@@ -1,0 +1,16 @@
+accelerate
+bitsandbytes
+datasets
+implicit
+matplotlib
+numpy
+pandas
+peft
+pyarrow
+scikit-learn
+scipy
+torch
+tqdm
+transformers
+trl
+unsloth[colab-new]
